@@ -1,6 +1,7 @@
 pub mod run;
+use run::run;
 
 
 fn main() {
-    run::prompt();
+    run();
 }
